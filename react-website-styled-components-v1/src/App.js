@@ -2,7 +2,7 @@ import React from "react";
 import GlobalStyle from "./GlobalStyles";
 import { Navbar } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/pages/HomePage/Home";
+import Home from "./pages/HomePage/Home";
 
 function App() {
   return (
